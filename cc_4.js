@@ -58,14 +58,14 @@ function calculateTax(amount,taxRate) {
     return amount * taxRate;
 }
 let tax = calculateTax(100,0.07);
-console.log('Tax:$${tax.toFixed(2)}');
+console.log(`Tax:$${tax.toFixed(2)}`);
 
 // Task 9 Function Expression
 const applyDiscount = function(price,discountPercent) { 
     return price-(price*(discountPercent/100));
 };
 const discontedPrice =applyDiscount(100,20);
-console.log('Discounted Price: $${discountedPrice.toFixed(2)}');
+console.log(`Discounted Price: $${discountedPrice.toFixed(2)}`);
 
 // Task 10 Arrow Functions
 const calculatePoints = amount=> {return amount/ 10; };
