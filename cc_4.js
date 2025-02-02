@@ -31,3 +31,12 @@ do {
     responses++;
 }while(responses<3); // limit 3 
 
+// Task 5...In Loop 
+let employee={
+    name:"Alice",
+    position: "Manager",
+    salary: "75000"
+};
+for (let key in employee) { 
+    console.log(`${key}: ${employee[key]}`);
+}
