@@ -64,7 +64,7 @@ console.log(`Tax:$${tax.toFixed(2)}`);
 const applyDiscount = function(price,discountPercent) { 
     return price-(price*(discountPercent/100));
 };
-const discontedPrice =applyDiscount(100,20);
+const discountedPrice =applyDiscount(100,20);
 console.log(`Discounted Price: $${discountedPrice.toFixed(2)}`);
 
 // Task 10 Arrow Functions
