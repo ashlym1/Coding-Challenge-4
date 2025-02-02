@@ -23,3 +23,11 @@ while(stock>0) {
     stock--;
 } // decresing stock to 0 
 console.log("Warning: Stock Reduced !");
+
+// Task 4 Do while Loop 
+let responses= 0; //Declaring an initial value of 0 
+do { 
+    console.log (`Collected response #${responses +1}`);
+    responses++;
+}while(responses<3); // limit 3 
+
