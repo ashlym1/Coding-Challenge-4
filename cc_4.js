@@ -40,3 +40,9 @@ let employee={
 for (let key in employee) { 
     console.log(`${key}: ${employee[key]}`);
 }
+
+// Task 6 For..oF Loop
+const products = [ "Celcius","Water","Protein Shake"];
+for(const product of products) { 
+    console.log(`Product:${product}`);
+}
