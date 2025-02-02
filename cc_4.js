@@ -46,3 +46,9 @@ const products = [ "Celcius","Water","Protein Shake"];
 for(const product of products) { 
     console.log(`Product:${product}`);
 }
+
+//Task 7 forEach()Method
+const orders = [107,105,102]
+orders.forEach(order=>{
+    console.log(`Order ID: ${order}`);
+});
