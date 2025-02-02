@@ -57,7 +57,7 @@ orders.forEach(order=>{
 function calculateTax(amount,taxRate) {
     return amount * taxRate;
 }
-let tax = calculatedTax(100,0.07);
+let tax = calculateTax(100,0.07);
 console.log('Tax: $${tax.toFixed(2)}');
 
 // Task 9 Function Expression
