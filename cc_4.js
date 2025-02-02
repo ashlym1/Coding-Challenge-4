@@ -48,7 +48,26 @@ for(const product of products) {
 }
 
 //Task 7 forEach()Method
-const orders = [107,105,102]
+const orders = [107,105,102] // Array of orders 
 orders.forEach(order=>{
     console.log(`Order ID: ${order}`);
 });
+
+//Task 8 Function Declaration 
+function calculateTax(amount,taxRate) {
+    return amount * taxRate;
+}
+let tax = calculatedTax(100,0.07);
+console.log('Tax: $${tax.toFixed(2)}');
+
+// Task 9 Function Expression
+const applyDiscount = function(price,discountPercent) { 
+    return price-(price*(discounPercent/100));
+};
+const discontedPrice =applyDiscount(100,20);
+console.log('Discounted Price: $${discounterdPrice.toFixed(2)}');
+
+// Task 10 Arrow Functions
+const calculatePoints = amount=> {return amount/ 10; };
+let points = calculatePoints(100); // When purchase amount is $100
+console.log("Loyalty Points Earned:" +points);
